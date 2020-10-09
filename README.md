@@ -85,7 +85,8 @@ FAIL: 3/8
 
 ## Each policy tested individually
 
-```>cd probe-failure-threshold/
+```
+>cd probe-failure-threshold/
 >opa test -v .
 data.kubernetes.admission.test_not_deployment_kind: PASS (589.731µs)
 data.kubernetes.admission.test_not_applicable_op: PASS (238.457µs)
