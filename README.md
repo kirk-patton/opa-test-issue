@@ -6,7 +6,7 @@ Test failure
 When running opa test -v within each policy directory, they pass.  When running from their parent 
 directory, the pro-failure-threshold directory has three failures.
 
-Prior to adding the cpu-limit policy, the tests withing the probe-failure-threshold directory passed.
+Prior to adding the cpu-limit policy, the tests within the probe-failure-threshold directory passed.
 
 ```
 .
